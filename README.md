@@ -1,6 +1,7 @@
 # Barbell Path Visualiser - A Computer Vision Approach
+_This was produced for COSC428: Computer Vision_
 
-![CleanShot 2024-06-03 at 22 50 04@2x](https://github.com/lukestynes/bar-path-tracker/assets/11674345/5f398b70-4cdc-44cd-994d-f3070387e6d1)
+![CleanShot 2024-06-03 at 22 56 48@2x](https://github.com/lukestynes/bar-path-tracker/assets/11674345/2720af91-b174-4f98-8ef7-e8e67a50fd65)
 
 
 Using OpenCV2 and Python, this project creates an automated barbell tracker and path visualiser.
@@ -29,3 +30,11 @@ From here the application can be run using the following command, with the video
 `python3.10 barbell_path_tracker.py ../resources/stabilised/squat.mp4`
 
 This will highlight the barbell path in the video, and also save an output file of the extracted bar path coordinate points.
+
+## Manual Annotation
+If you wish to annotate the barbell centres manually on a video you can do so by running, replacing `path_to_video` with the relevant path:
+`python3.10 barbell_path_tracker.py path_to_video`
+
+## Viewing Metrics
+Once you have a manual and automated tracked video data set you can compare the two by using the following, replacing `path_to_manual` with the manual marked data file, and `path_to_auto` with the automatically generated data file:
+`python3.10 metrics.py path_to_manual path_to_auto`
