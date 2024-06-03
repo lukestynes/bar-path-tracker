@@ -1,5 +1,8 @@
 # Barbell Path Visualiser - A Computer Vision Approach
 
+![CleanShot 2024-06-03 at 22 50 04@2x](https://github.com/lukestynes/bar-path-tracker/assets/11674345/5f398b70-4cdc-44cd-994d-f3070387e6d1)
+
+
 Using OpenCV2 and Python, this project creates an automated barbell tracker and path visualiser.
 Using side on footage of weighlifting movements, the end of the barbell
 
